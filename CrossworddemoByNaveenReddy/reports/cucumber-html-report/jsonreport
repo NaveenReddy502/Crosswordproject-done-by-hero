@@ -1,0 +1,73 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Check that main elements on  Crossword Loginpage are displayed",
+        "description": "",
+        "id": "crossword-loginpage;check-that-main-elements-on--crossword-loginpage-are-displayed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I launch Chrome browser",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Login Crossword login page opened",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "I enter username and password",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "clicks the login button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "Close the browser",
+            "match": {},
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@tc_01_Register"
+          }
+        ]
+      }
+    ],
+    "name": "Crossword Loginpage",
+    "description": "This feature verifies the fuctionality on  OrangeHrmdemo Loginpage",
+    "id": "crossword-loginpage",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/test.feature"
+  }
+]
